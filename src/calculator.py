@@ -9,5 +9,5 @@ def divide(a, b):
         quotient = a / b
         return quotient
     except ZeroDivisionError:
-        print("Error -- dividing by zero.")
+        print("Error: dividing by zero.")
         return None
